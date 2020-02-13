@@ -4,6 +4,7 @@
 1. Background
 2. Problem Statement
 3. Executive Summary
+Project Planning
 4. EDA
 5. Feature Engineering
 6. Modeling
@@ -28,6 +29,8 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 
 - To build a model and make predictions on the probability that WNV is presesent so as to aid CDC in deriving an effective pesticide deployment plan
 - To conduct a cost-benefit analysis on the annual cost projections for various level of pesticide coverage and the effects of these various levels of pesticide coverage
+
+## Executive Summary
 
 ## Project Planning
 - Project Milestones: https://github.com/Zoeychengg/project_4/milestones
