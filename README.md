@@ -4,8 +4,8 @@
 1. Background
 2. Problem Statement
 3. Executive Summary
-Project Planning
-4. EDA
+4. Project Planning
+5. EDA
 5. Feature Engineering
 6. Modeling
 7. Cost-Benefit Analysis
@@ -39,8 +39,33 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 ## EDA
   
 ## Feature Engineering
+The following shows the feature engineering process:
+Feature Elimination
+Encoding of Categorical Features
+Data Scaling
+Handling of imbalance WNV present data
+
 
 ## Modeling
+The following shows the modeling process:
+1. Train-Test Split
+2. Hyperparameter Tuning
+3. Cross Validation
+4. Test Prediction
+5. Evaluation
+
+The following shows the models built and the ROC AUC score used for evaluation:
+1. Logistic Regression
+- CV: 0.893 
+- Test: 0.737
+2. Random Forest
+- CV: 0.972
+- Test: 0.714 
+3. XGBoost
+- Train: 0.984 
+- Test: 0.635
+
+The Random Forest model was selected for Kaggle submission, yielded a ROC AUC score of approximately 0.75.
 
 ## Cost-Benefit Analysis
 
@@ -135,6 +160,7 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 
 ### Codes File Descriptions
 
-1. Cleaning and EDA
-2. Modeling
-3. Cost-Benefit Analysis
+1. Cleaning 1 (Spray), 2 (Weather) and 3 (Train-Test)
+2. EDA
+3. Modeling
+4. Cost-Benefit Analysis
