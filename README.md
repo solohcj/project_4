@@ -27,7 +27,7 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 
 ## Problem Statement
 
-- To build a model and make predictions on the probability that WNV is presesent so as to aid CDC in deriving an effective pesticide deployment plan
+- To build a classification model with high specificity & sensitivity (ROC-AUC) on the probability of presence of WNV so as to aid CDC in deriving an effective pesticide deployment plan
 - To conduct a cost-benefit analysis on the annual cost projections for various level of pesticide coverage and the effects of these various levels of pesticide coverage
 
 ## Executive Summary
@@ -37,13 +37,14 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 - Task Breakdown: https://github.com/Zoeychengg/project_4/projects/1
 
 ## EDA
+1. 
   
 ## Feature Engineering
 The following shows the feature engineering process:
-Feature Elimination
-Encoding of Categorical Features
-Data Scaling
-Handling of imbalance WNV present data
+1. Feature Elimination
+2. Encoding of Categorical Features
+3. Data Scaling
+4. Handling of imbalance WNV present data
 
 
 ## Modeling
