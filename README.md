@@ -1,23 +1,54 @@
 # West Nile Virus Prediction for Chicago
-Analyzed datasets and predicting whether or not West Nile virus is present, for a given time, location, and species.
 
-Every year from late-May to early-October, public health workers in Chicago setup mosquito traps scattered across the city. Every week from Monday through Wednesday, these traps collect mosquitos, and the mosquitos are tested for the presence of West Nile virus before the end of the week. The test results include the number of mosquitos, the mosquitos species, and whether or not West Nile virus is present in the cohort.
+## Scope
+1. Background
+2. Problem Statement
+3. Executive Summary
+4. EDA
+5. Feature Engineering
+6. Modeling
+7. Cost-Benefit Analysis
+8. Conclusion and Recommendations
+9. Assets File Description
+10. Dataset File Description
+
+## Background
+West Nile Virus is most commonly spread to humans through infected mosquitos. Due to the recent epidemic in City of Chicago, Chicago Department of Publich Health (CDPH) had established a surveillance and control program. The program entails setting mosquito traps, testing for WNV and spraying of airborne pesticides in the city.
+
+Every year from late-May to early-October, CDPH setup mosquito traps scattered across the city. Every week from Monday through Wednesday, these traps collect mosquitos, and the mosquitos are tested for the presence of West Nile virus before the end of the week. The test results include the number of mosquitos, the mosquitos species, and whether or not West Nile virus is present in the cohort.
+
+Centres for Disease Control and Prevention (CDC) has engaged Disease and Treatment Agency (DATA) for the following services:
+- To conduct a review on the surveillance and control program through data analytics
+- To conduct a cost-benefit analysis on the annual cost projections for various levels of pesticide coverage and  the effect of of these various levels of pesticide coverage
+
+DATA is responsible to analyze the mosquito trap location, testing and spraying datasets given by CDPH, and weather datasets given by National Oceanic and Atmosphere Administration (NOAA) to predict whether or not West Nile virus is present, for a given time, location, and species.
+
+## Problem Statement
+
+- To build a model and make predictions on the probability that WNV is presesent so as to aid CDC in deriving an effective pesticide deployment plan
+- To conduct a cost-benefit analysis on the annual cost projections for various level of pesticide coverage and the effects of these various levels of pesticide coverage
+
+## Project Planning
+- Project Milestones: https://github.com/Zoeychengg/project_4/milestones
+- Task Breakdown: https://github.com/Zoeychengg/project_4/projects/1
 
 ## EDA
-
+  
 ## Feature Engineering
 
-## Modelling
+## Modeling
+
+## Cost-Benefit Analysis
 
 ## Executive Summary
 
-## File list
+## File List
 
 
-### Assets file descriptions
+### Assets File Descriptions
 **train.csv, test.csv - the training and test set of the main dataset.**    
-- The training set consists of data from 2007, 2009, 2011, and 2013
-- While in the test set you are requested to predict the test results for 2008, 2010, 2012, and 2014.   
+- The training set consists of data from 2007, 2009, 2011, and 2013.
+- The test set used to predict the results are from 2008, 2010, 2012, and 2014.
 
 |Feature |Description |
 |:-----|:-----|
@@ -56,7 +87,7 @@ Every year from late-May to early-October, public health workers in Chicago setu
 | Longitude | Longitude of the spray |  
 | Date | Date |
 | Tmax | Maximum Temperature in Fahrenheit|
-| Tmmin | Minimum Temperature in Fahrenheit|
+| Tmin | Minimum Temperature in Fahrenheit|
 | Tavg | Average Temperature in Fahrenheit|
 | Depart | Departure from Normal Temperature in Fahrenheit|
 | DewPoint | Average Dew Point in Fahrenheit where the atmospheric temperature (varying according to <br/> pressure and humidity) below which water droplets begin to condense and dew can form.|
@@ -73,7 +104,7 @@ Every year from late-May to early-October, public health workers in Chicago setu
 - a sample submission file in the correct format   
 
 
-### Dataset file description
+### Dataset File Description
 
 **Final dataset used for modelling**  
 
