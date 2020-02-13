@@ -11,6 +11,7 @@
 8. Conclusion and Recommendations
 9. Assets File Description
 10. Dataset File Description
+11. Codes File Descriptions
 
 ## Background
 West Nile Virus is most commonly spread to humans through infected mosquitos. Due to the recent epidemic in City of Chicago, Chicago Department of Publich Health (CDPH) had established a surveillance and control program. The program entails setting mosquito traps, testing for WNV and spraying of airborne pesticides in the city.
@@ -104,7 +105,7 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 - a sample submission file in the correct format   
 
 
-### Dataset File Description
+### Dataset File Descriptions
 
 **Final dataset used for modelling**  
 
@@ -129,6 +130,6 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 | AvgSpeed            | Numerical     |                                                             |
 | WnvPresent          | Categorical   | Target variable - y                                         |
 
-### Codes file description   
+### Codes File Descriptions
 
 -
