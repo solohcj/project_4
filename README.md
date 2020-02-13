@@ -9,8 +9,8 @@
 6. Modeling
 7. Cost-Benefit Analysis
 8. Conclusion and Recommendations
-9. Assets File Description
-10. Dataset File Description
+9. Assets File Descriptions
+10. Dataset File Descriptions
 11. Codes File Descriptions
 
 ## Background
@@ -109,7 +109,7 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 
 **Final dataset used for modelling**  
 
-| Feature             | Type          | Description                                                 |
+| Feature             | Type          | Remarks                                                 |
 |:--------------------|:--------------|:------------------------                                    |
 | Species             | Categorical   | OneHotEncoded the different species                         |
 | Cluster             | Categorical   | Cluster created by pairing Latitude and Longitutde together |
@@ -132,4 +132,6 @@ DATA is responsible to analyze the mosquito trap location, testing and spraying 
 
 ### Codes File Descriptions
 
--
+1. Cleaning and EDA
+2. Modeling
+3. Cost-Benefit Analysis
